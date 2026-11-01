@@ -206,6 +206,7 @@ def add_zero(x):
 - Formalization: [bendtt.lean](bend2/bendtt.lean), the kernel of `--verdict` and its proofs, in Lean.
 - Benches: [bench/](bench), every bench used to make the charts above.
 - Formatter: [bend-fmt-lsp](tools/bend-fmt-lsp), a formatting-only Bend 2 language server.
+- Linter: [bend-lint](tools/bend-lint), a linter and formatter with pluggable rules and safe fixes.
 - Community language server: [bend2-lsp](https://github.com/don2e4/bend2-lsp), with formatting, diagnostics, and hover.
 - Community workshop: [Bend 2 pocket workshop](https://np.github.io/bend-workshop/), the checker and JS compiler in one HTML page, with goals and proof tools, phone first.
 
@@ -252,7 +253,7 @@ def add_zero(x):
 - No Windows (WSL works); on Linux, Window and Audio need X11 and ALSA headers.
 - A hub package is a hash, unless its author names and versions it after `bend login`.
 - Error messages are terse; no debugger, profiler or REPL.
-- The editor tool only formats; the community bend2-lsp adds errors and hover.
+- The in-repo tools lint and format; the community bend2-lsp adds diagnostics and hover.
 - No test framework and no documentation beyond the guide.
 - And more that escape me. Be patient, report bugs and request features!
 
