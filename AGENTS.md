@@ -42,6 +42,10 @@ lines its run must print, and the gates run on the mini cluster.
     guide/              GUIDE.md
     paper/              BendTT.pdf, BendRT.pdf
     media/              the film and the charts
+    evals/              the models' proof arena, tiered easy through hell; not
+                        gated (no allow line, skipped by repo.ts)
+    tools/              the in-repo formatter LSP (bend-fmt-lsp) and the
+                        linter (bend-lint)
     .github/            ISSUE_TEMPLATE/bug.yml, the bug report form, and
                         config.yml, which points questions at Discord
     ../bend-lang.com    the site repo (bendlang/bend-lang.com), a sibling
