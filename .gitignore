@@ -1,5 +1,6 @@
 .tmp/
 .claude/
+.venv/
 node_modules/
 *.tgz
 *.bendtt
