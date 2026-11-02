@@ -38,6 +38,7 @@ allow(/^\.github\/ISSUE_TEMPLATE\/(bug|feature|config)\.yml$/);
 allow(".github/workflows/repo-gate.yml");
 allow(".gitattributes");
 allow(".gitignore");
+allow(/^\.agents\/skills\/[a-z0-9-]+\/SKILL\.md$/);
 allow("AGENTS.md");
 allow("CHANGELOG.md");
 allow("README.md", 4000);
